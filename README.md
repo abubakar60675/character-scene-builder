@@ -34,27 +34,31 @@ A React application that parses movie scripts, detects characters, and allows us
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+
+   ```bash
    git clone <repository-url>
    cd character-scene-builder
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Set up environment variables:
-   \`\`\`bash
-   cp .env.example .env.local
-   \`\`\`
 
-The Replicate API token is already provided in the example file.
+   ```bash
+   cp .env.example .env.local
+   ```
+
+   The Replicate API token is already provided in the example file.
 
 4. Run the development server:
-   \`\`\`bash
+
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -104,5 +108,3 @@ The app integrates with Replicate API using the FLUX.1 model for image generatio
 - Image generation fallbacks to placeholder images if Replicate API fails
 - The UI is designed to be intuitive and follows modern design patterns
 - Scene state persists across browser sessions using localStorage
-
-\
