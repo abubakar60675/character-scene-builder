@@ -6,7 +6,15 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "replicate.delivery",
+        hostname: "*",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "http",
+        hostname: "*",
+        port: "",
+        pathname: "/**",
       },
     ],
   },
